@@ -1,0 +1,3 @@
+FROM bellsoft/liberica-openjdk-alpine:latest
+COPY ./out ./out
+CMD java -classpath ./out my.Presenter.SimpleCalculator

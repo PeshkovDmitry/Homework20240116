@@ -1,0 +1,8 @@
+sudo docker build . -f dockerfile1  -t compilehellojava
+sudo docker run -d compilehellojava
+CONTAINER_ID=$(docker ps -alq)
+docker cp $CONTAINER_ID:/out .
+docker stop $CONTAINER_ID
+sudo docker build . -f dockerfile2  -t runhellojava
+sudo docker run runhellojava
+
