@@ -8,13 +8,13 @@ import my.Model.Subtractor;
 
 /**
 * Основной класс простого калькулятора
-* @param args Аргументы командной строки
 */
 
 public class SimpleCalculator {
 	
 	/**
 	* Класс main - точка входа
+	* @param args Аргументы командной строки
 	*/
 	
 	public static void main(String[] args) {

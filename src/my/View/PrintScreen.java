@@ -2,16 +2,16 @@ package my.View;
 
 /**
 * Класс, реализующий взаимодействие с пользователем через терминал
-* @param result Вещественное число для вывода на экран
 */
 
 public class PrintScreen {
 	
 	/**
 	* Метод для вывода вещественного числа на экран
+	* @param result Вещественное число для вывода на экран
 	*/
 	
-	public void print(Float result) {
+	public void print(float result) {
 
 		System.out.println(
 			String.format(
